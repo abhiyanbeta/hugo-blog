@@ -1,0 +1,47 @@
+baseURL: "https://examplesite.com"
+title: ExampleSite
+paginate: 5
+theme: hugo-PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpored: false
+
+googleAnalytics: UA-123-45
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  ShowReadingTime: true
+  ShowShareButtons: true
+  comments: false
+  defaultTheme: auto # Toggle dark/light based on browser
+  disableThemeToggle: false # Hide theme toggle switch
+  disableSpecial1stPost: false
+
+  # profile-mode
+  profileMode:
+    enabled: true # needs to be explicitly set
+    title: ExampleSite
+    imageUrl: "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+    imageTitle: "alt text"
+    buttons:
+      - name: Posts
+        url: posts
+      - name: Tags
+        url: tags
+
+  socialIcons: # (not showing??)
+    - name: twitter
+      url: "https://twitter.com/"
+    - name: stackoverflow
+      url: "https://stackoverflow.com"
+    - name: github
+      url: "https://github.com/"
+
+  analytics:
+    google:
+      SiteVerificationTag: "XYZabc"
