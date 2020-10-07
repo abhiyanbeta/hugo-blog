@@ -1,7 +1,7 @@
-baseURL: "https://examplesite.com"
-title: ExampleSite
+baseURL: "https://examplesite.com" #TODO
+title: "@abhiyanbeta"
 paginate: 5
-theme: hugo-PaperMod
+theme: "hugo-PaperMod"
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -25,14 +25,8 @@ params:
   # profile-mode
   profileMode:
     enabled: true # needs to be explicitly set
-    title: ExampleSitee
-    imageUrl: "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-    imageTitle: "alt text"
-    buttons:
-      - name: Posts
-        url: posts
-      - name: Tags
-        url: tags
+    title: "Abhiyan Bhandari"
+    imageUrl: "https://avatars0.githubusercontent.com/u/57075221?s=460&v=4"
 
   socialIcons: # (not showing??)
     - name: twitter
@@ -44,4 +38,25 @@ params:
 
   analytics:
     google:
-      SiteVerificationTag: "XYZabc"
+      SiteVerificationTag: "XYZabc" #TODO
+
+menu:
+  main:
+    - name: Archives
+      url: /archives/
+      weight: 1
+    - name: Tags
+      url: /tags/
+      weight: 1
+    - name: Page1
+      url: /page1/
+      weight: 0
+    - name: Page2
+      url: /page2/
+      weight: 0
+    - name: Page3
+      url: /page3/
+      weight: 0
+    - name: Page4
+      url: /page4/
+      weight: 0
